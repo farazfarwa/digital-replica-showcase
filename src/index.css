@@ -17,11 +17,13 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Travel theme - vibrant orange primary */
+    --primary: 25 95% 53%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Nature green secondary */
+    --secondary: 142 69% 58%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -34,7 +36,22 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 25 95% 53%;
+
+    /* Travel specific colors */
+    --travel-blue: 207 90% 54%;
+    --travel-cream: 48 100% 96%;
+    --travel-sand: 43 74% 91%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(25 95% 53%), hsl(38 92% 50%));
+    --gradient-secondary: linear-gradient(135deg, hsl(142 69% 58%), hsl(120 60% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(25 95% 53% / 0.9), hsl(142 69% 58% / 0.9));
+    
+    /* Shadows */
+    --shadow-travel: 0 10px 30px -10px hsl(25 95% 53% / 0.3);
+    --shadow-card: 0 4px 20px -2px hsl(0 0% 0% / 0.1);
+    --shadow-float: 0 20px 40px -10px hsl(25 95% 53% / 0.2);
 
     --radius: 0.5rem;
 
